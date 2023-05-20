@@ -28,8 +28,7 @@ func (tgChatInstanceDal tgChatInstanceDalgo) GetTelegramChatInstanceByID(c conte
 		Data:   tgChatInstanceData,
 	}
 
-	var session dal.ReadSession
-	session = tgChatInstanceDal.db
+	var session dal.ReadSession = tgChatInstanceDal.db
 	//if tx == nil {
 	//	session = tgChatInstanceDal.db
 	//} else {
