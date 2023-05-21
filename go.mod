@@ -7,7 +7,7 @@ go 1.20
 //replace github.com/bots-go-framework/bots-fw-telegram => ../bots-fw-telegram
 
 require (
-	github.com/bots-go-framework/bots-fw-telegram v0.6.10
+	github.com/bots-go-framework/bots-fw-telegram v0.6.11
 	github.com/bots-go-framework/bots-fw-telegram-models v0.0.9
 	github.com/dal-go/dalgo v0.2.30
 )
